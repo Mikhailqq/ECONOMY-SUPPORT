@@ -1,0 +1,14 @@
+.result-item__image-2 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 63px;
+}
+@media screen and (max-width: 376px) {
+    .result-item__image-2 {
+        width: 82%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 62px;
+    }
+}

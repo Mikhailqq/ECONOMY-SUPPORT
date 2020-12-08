@@ -1,0 +1,10 @@
+.result-item__container-image-dia {
+        max-width: 492px;
+}
+
+@media screen and (max-width: 768px) {
+    .result-item__container-image-dia {
+        /* max-width: 400px; */
+        text-align: center;
+    }
+}

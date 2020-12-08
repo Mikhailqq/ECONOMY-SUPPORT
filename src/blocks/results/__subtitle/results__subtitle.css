@@ -1,0 +1,29 @@
+.results__subtitle {
+    font-family: 'Roboto';
+    font-size: calc(16px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #3E3E41;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .results__subtitle {
+
+        max-width: 920px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .results__subtitle {
+
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .results__subtitle {
+        font-size: 1rem;
+    }
+}

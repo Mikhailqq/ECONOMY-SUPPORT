@@ -1,0 +1,35 @@
+@import url('./__about-container/intro__about-container.css');
+@import url('./__about-name/intro__about-name.css');
+@import url('./__text-container/intro__text-container.css');
+@import url('./__text/intro__text.css');
+@import url('./__about-job/intro__about-job.css');
+@import url('./__about-photo/intro__about-photo.css');
+@import url('./__arrow-right/intro__arrow-right.css');
+@import url('./__arrow-left/intro__arrow-left.css');
+@import url('./__arrow-right-container/intro__arrow-right-container.css');
+@import url('./__arrow-left-container/intro__arrow-left-container.css');
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1296px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 426px) {
+    .intro {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 728px) {
+    .intro {
+        margin-top: 10px;
+    }
+}
+/* @media only screen and (device-width: 320px) and (orientation:landscape) {
+
+} */

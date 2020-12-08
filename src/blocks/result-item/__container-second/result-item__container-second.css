@@ -1,0 +1,18 @@
+.result-item__container-second {
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    .result-item__container-second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .result-item__container-second {
+        align-items: baseline;
+
+    }
+}

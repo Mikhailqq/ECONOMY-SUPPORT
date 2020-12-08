@@ -1,0 +1,16 @@
+.results__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 760px) {
+    .results__container {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: inherit;
+    margin-top: 0;
+    }
+}

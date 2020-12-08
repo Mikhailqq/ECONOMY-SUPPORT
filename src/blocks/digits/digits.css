@@ -1,0 +1,56 @@
+@import url('./__item/digits__item.css');
+@import url('./__item-image/digits__item-image.css');
+@import url('./__item-title/digits__item-title.css');
+@import url('./__item-subtitle/digits__item-subtitle.css');
+@import url();
+
+.digits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 100px;
+
+}
+
+@media screen and (max-width: 769px) {
+    .digits {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .digits {
+        grid-template-columns: none ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 850px) {
+    .digits {
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    justify-content: center;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 426px) {
+    .digits {
+        grid-template-columns: none ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-top: 50px;
+    }
+}
+
+/* @media screen and (max-width: 942px) {
+    .digits {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+} */

@@ -1,0 +1,6 @@
+@import url('./__container/lists__container.css');
+@import url('./__link/lists__link.css');
+.lists {
+    margin-top: 90px;
+    margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+@import url('./__color-1/row__color-1.css');
+@import url('./__color-2/row__color-2.css');
+@import url('./__color-3/row__color-3.css');
+@import url('./__color-4/row__color-4.css');
+@import url('./__color-5/row__color-5.css');
+@import url('./__color-6/row__color-6.css');
+@import url('./__color-7/row__color-7.css');
+@import url('./__color-8/row__color-8.css');
+@import url('./__color-9/row__color-9.css');
+@import url('./__color-10/row__color-10.css');
+@import url('./__color-11/row__color-11.css');
+@import url('./__color-12/row__color-12.css');
+@import url('./__color-13/row__color-13.css');
+@import url('./__color-14/row__color-14.css');
+@import url('./__color-15/row__color-15.css');
+@import url('./__color-16/row__color-16.css');
+@import url('./__color-17/row__color-17.css');
+@import url('./__color-18/row__color-18.css');
+@import url('./__color-19/row__color-19.css');
+@import url('./__text/row__text.css');
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

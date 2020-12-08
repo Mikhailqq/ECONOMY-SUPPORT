@@ -1,0 +1,8 @@
+.digits__item-title {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    color: #B91827;
+    z-index: 1;
+    align-self: flex-start;
+    margin-bottom: 0;
+}

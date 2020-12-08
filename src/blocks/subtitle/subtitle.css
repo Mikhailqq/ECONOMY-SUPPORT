@@ -1,0 +1,30 @@
+.subtitle {
+    font-family: 'Roboto';
+    font-size: calc(18px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #3E3E41;
+    max-width: 1296px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .subtitle {
+
+        max-width: 920px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .subtitle {
+        margin-bottom: 70px;
+        max-width: 500px;
+        text-align: center;
+    }
+}
+
+/* @media screen and (max-width: 501px) {
+    .subtitle {
+        font-size: 16px;
+    }
+} */

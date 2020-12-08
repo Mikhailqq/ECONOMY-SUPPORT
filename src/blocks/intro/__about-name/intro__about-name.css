@@ -1,0 +1,9 @@
+.intro__about-name {
+    max-width: 749px;
+    font-family: 'Roboto';
+    font-size: calc(14px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #3E3E41;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}

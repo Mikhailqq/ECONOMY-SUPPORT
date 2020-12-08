@@ -1,0 +1,27 @@
+/* @import url('./__container-image/card__container-image.css'); */
+@import url('./__image/card__image.css');
+@import url('./__link/card__link.css');
+@import url('./__subtitle/card__subtitle.css');
+@import url('./__text/card__text.css');
+@import url('./__title/card__title.css');
+@import url('./__container-image/card__container-image.css');
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #B91827;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+    }
+} */

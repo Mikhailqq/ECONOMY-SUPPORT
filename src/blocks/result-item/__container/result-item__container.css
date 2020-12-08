@@ -1,0 +1,13 @@
+.result-item__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 769px) {
+    .result-item__container {
+        display: none;
+
+    }
+}

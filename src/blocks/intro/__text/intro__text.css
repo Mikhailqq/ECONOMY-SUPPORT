@@ -1,0 +1,23 @@
+.intro__text {
+    max-width: 749px;
+    font-family: 'Roboto';
+    font-size: calc(14px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #3E3E41;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+@media screen and (max-width: 769px) {
+    .intro__text {
+        font-size: calc(11px + 10 * (100vw / 1920));
+    }
+}
+
+@media (orientation:landscape) and (max-width: 850px) {
+    .intro__text {
+        font-size: calc(11px + 10 * (100vw / 1920));
+    }
+}

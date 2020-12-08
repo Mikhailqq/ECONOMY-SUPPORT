@@ -1,0 +1,21 @@
+.card__title {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    max-width: 410px;
+    margin: 0;
+    margin-left: 15px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .card__title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card__title {
+        font-size: 1rem;
+    }
+}

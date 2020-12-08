@@ -1,0 +1,26 @@
+
+.list-item__subtitle {
+    font-family: 'Roboto';
+    font-size: calc(14px + 10 * (100vw / 1920));
+    font-weight: normal;
+    color: #3E3E41;
+    max-width: 864px;
+    margin: 0 auto;
+    margin-left: 50px;
+
+
+}
+
+
+
+@media screen and (max-width: 501px) {
+    .list__subtitle {
+        font-size: calc(8px + 16 * (100vw / 1920));
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .list__subtitle {
+        font-size: calc(6px + 16 * (100vw / 1920));
+    }
+}

@@ -1,0 +1,22 @@
+.row__color-19 {
+    width: 30px;
+    height: 30px;
+    background: #E9424E;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 426px) {
+    .row__color-19 {
+        width: 25px;
+        height: 25px;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .row__color-19 {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+    }
+}

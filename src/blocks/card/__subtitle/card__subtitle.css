@@ -1,0 +1,8 @@
+.card__subtitle {
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    color: #AFAFAF;
+    z-index: 1;
+    max-width: 350px;
+    margin-top: 0;
+}

@@ -1,0 +1,10 @@
+.intro__text-container {
+    display: flex;
+    order: 2;
+}
+
+@media screen and (max-width: 769px) {
+    .intro__text-container {
+        order: 1;
+    }
+}

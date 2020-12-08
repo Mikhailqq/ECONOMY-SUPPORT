@@ -1,0 +1,15 @@
+.intro__about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 375px;
+    order: 1;
+}
+
+@media screen and (max-width: 426px) {
+    .intro__about-container {
+        order: 2;
+        margin: 0 auto;
+    }
+}

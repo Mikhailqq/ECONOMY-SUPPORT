@@ -1,0 +1,7 @@
+.result-item__container-image-stat {
+    /* max-width: 700px;
+    text-align: center; */
+    display: grid;
+    grid-template-rows: repeat(3, 30px);
+    grid-gap: 12px;
+}

@@ -1,0 +1,19 @@
+.intro__arrow-left {
+    width: 94px;
+    height: 90px;
+}
+@media screen and (max-width: 769px) {
+    .intro__arrow-left {
+        width: 30px;
+        height: 30px;
+
+    }
+}
+
+@media (orientation:landscape) and (max-width: 850px) {
+    .intro__arrow-left {
+        width: 30px;
+        height: 30px;
+
+    }
+}
